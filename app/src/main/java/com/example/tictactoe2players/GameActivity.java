@@ -14,6 +14,7 @@ public class GameActivity extends AppCompatActivity {
     private FbModule fbModule;
     private BoardGame boardGame;
     private GameModule gameModule;
+
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class GameActivity extends AppCompatActivity {
         int win=gameModule.isWin(boardGame.arr);
         if( win==1 )
             Toast.makeText(this, "O win", Toast.LENGTH_SHORT).show();
-            
+
         if(win==0)
             Toast.makeText(this, "X win", Toast.LENGTH_SHORT).show();
     }
