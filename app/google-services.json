@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "817376769518",
+    "firebase_url": "https://tictactoe2playersb-default-rtdb.firebaseio.com",
+    "project_id": "tictactoe2playersb",
+    "storage_bucket": "tictactoe2playersb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817376769518:android:7f0e77e82b6ba6f00dcaff",
+        "android_client_info": {
+          "package_name": "com.example.tictactoe2players"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsklY2eaTh7F8jUt5DxzQSnifBB0gtSGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
