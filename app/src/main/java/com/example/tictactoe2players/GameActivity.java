@@ -9,9 +9,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class GameActivity extends AppCompatActivity {
+    public class GameActivity extends AppCompatActivity {
 
-    private FbModule fbModule;
+        private FbModule fbModule;
     private BoardGame boardGame;
     private GameModule gameModule;
 
@@ -19,6 +19,11 @@ public class GameActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        String gameType=getIntent().getStringExtra("gameType");
+        if(gameType.equals("easy"))
+        {
+
+        }
         //setContentView(R.layout.activity_game);
         boardGame = new BoardGame(this);
         setContentView(boardGame);

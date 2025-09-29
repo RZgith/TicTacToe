@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view==btnGame)
         {
             Intent i = new Intent(MainActivity.this,GameActivity.class);
+            i.putExtra("gameType","easy");
             startActivity(i);
         }
         if (view==btn2)
